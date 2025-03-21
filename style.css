@@ -39,7 +39,22 @@ img{
     width: 100%;
 }
 p{
- text-align: center;
+    text-align: center;
+    align-self: center;
 }
 
+div#itens-banner{
+    grid-template-columns: auto 40%;
+    
+}
+div#itens{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 5%;
+    column-gap: 5%;
+    margin: 5%;
+}
+.container-grid{
+    display: grid;
+}
 
