@@ -1,2 +1,3 @@
 # aprendendo-git
-praticando git
+ - praticando git
+ - modificando arquivo Html/Css
